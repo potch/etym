@@ -1,0 +1,33 @@
+{
+  "name": "etym",
+  "version": "1.0.0",
+  "description": "Query for the etymology of a term",
+  "main": "index.js",
+  "bin": {
+    "etym": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Potch",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.40.0",
+    "cheerio": "^0.17.0",
+    "nomnom": "^1.8.0",
+    "chalk": "^0.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/potch/etym.git"
+  },
+  "keywords": [
+    "etymology",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/potch/etym/issues"
+  },
+  "homepage": "https://github.com/potch/etym"
+}
