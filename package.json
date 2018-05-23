@@ -1,6 +1,6 @@
 {
   "name": "etym",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Query for the etymology of a term",
   "main": "index.js",
   "bin": {
@@ -12,10 +12,11 @@
   "author": "Potch",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.40.0",
-    "cheerio": "^0.17.0",
-    "nomnom": "^1.8.0",
-    "chalk": "^0.5.1"
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "nomnom": "^1.8.1",
+    "request": "^2.87.0",
+    "strip-ansi": "^4.0.0"
   },
   "devDependencies": {},
   "repository": {
